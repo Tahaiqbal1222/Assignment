@@ -97,7 +97,6 @@ void main() {
 
   String studentName = "taha";
   int rollNumber = 12801;
-  String ClassName = "10";
 
   num subjects1marks = 76;
   num subjects2marks = 57;
@@ -140,7 +139,7 @@ void main() {
 
 // question 9
 
-  int number = 21;
+  int number = 35;
 
   if (number % 2 == 0) {
     print("number is even");
