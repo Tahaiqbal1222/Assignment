@@ -83,11 +83,11 @@ void main() {
 
   List<int> Numbers = [11, 22, 33, 44, 55, 66, 77, 89, 99];
 
-  int max = numbers[0];
+  int max = Numbers[0];
 
-  for (int i = 1; i < numbers.length; i++) {
-    if (numbers[i] > max) {
-      max = numbers[i];
+  for (int i = 1; i < Numbers.length; i++) {
+    if (Numbers[i] > max) {
+      max = Numbers[i];
     }
   }
 
