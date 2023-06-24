@@ -67,19 +67,31 @@ void main() {
     'tue': 3234.0,
   };
 
-  if (expenses.containsKey('fri'));{
-  expenses ['fri'] = 5000.0;
+  if (expenses.containsKey('fri')) {
+    expenses['fri'] = 5000.0;
+  } else {
+    expenses['fri'] = 5000.0;
+  }
 
- } else {
-
-  expenses ['fri'] = 5000.0;
-}
   print(expenses);
 
+  // question 8
 
+  // question 9
 
+  // question 10
 
+  List<int> Numbers = [11, 22, 33, 44, 55, 66, 77, 89, 99];
 
+  int max = numbers[0];
 
+  for (int i = 1; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+  }
 
+  print('Maximum value: $max');
+
+// QUESTION 11
 }
